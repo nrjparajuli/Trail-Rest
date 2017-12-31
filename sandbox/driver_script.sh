@@ -1,0 +1,1 @@
+psql -U trail -d trail_db -f test_runs.sql
