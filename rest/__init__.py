@@ -15,8 +15,8 @@ class TrailServer:
 		self.port_num = config['PORT_NUMBER']
 		self.env = env
 
-		# for game in game_services.get_all_created_games('ltnguyen14'):
-		#  	game_services.delete_game_admin(game , 'ltnguyen14')
+		# for game in game_services.get_all_created_games('nparaj14'):
+		#  	game_services.delete_game_admin(game , 'nparaj14')
 
 		@self.app.route("/log-in", methods=['GET', 'POST'])
 		def log_in():
